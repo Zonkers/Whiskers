@@ -1,6 +1,6 @@
 Version 1 - 6/9/2015 Dave
 
-This initial version had no error handling. Any I/O errors just cause the python script to exit. 
+This initial version has no error handling. Any I/O errors just cause the python script to exit with an unhandled exception. 
 
 Currently, the library is using the AdaFruit_BBIO library. To install it run:
   # opkg update && opkg install python-pip python-setuptools python-smbus
